@@ -8,6 +8,10 @@ class Assign extends Model
 {
     use HasFactory;
     protected $table = 'Assigns';
+
+
+
+    
     protected $fillable =[
         'Email',
         'Base_Mark',
